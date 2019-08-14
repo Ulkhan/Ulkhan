@@ -8,30 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		5F376F032304363E00C213C0 /* Ulkhan.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F376F012304363E00C213C0 /* Ulkhan.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F376F152304367500C213C0 /* OptionalExts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F376F0A2304367500C213C0 /* OptionalExts.swift */; };
-		5F376F162304367500C213C0 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F376F0C2304367500C213C0 /* Connection.swift */; };
-		5F376F172304367500C213C0 /* MultiPartMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F376F0D2304367500C213C0 /* MultiPartMedia.swift */; };
-		5F376F182304367500C213C0 /* NetworkServices+MultiPartExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F376F0E2304367500C213C0 /* NetworkServices+MultiPartExt.swift */; };
-		5F376F192304367500C213C0 /*  NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F376F0F2304367500C213C0 /*  NetworkServices.swift */; };
-		5F376F1A2304367500C213C0 /* LocalizableProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F376F112304367500C213C0 /* LocalizableProtocols.swift */; };
-		5F376F1B2304367500C213C0 /* HelperExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F376F122304367500C213C0 /* HelperExt.swift */; };
-		5F376F1C2304367500C213C0 /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F376F132304367500C213C0 /* LocalizationManager.swift */; };
-		5F376F1D2304367500C213C0 /* LocalizableUIButton+UILabel+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F376F142304367500C213C0 /* LocalizableUIButton+UILabel+UITextField.swift */; };
+		5F376F412304416200C213C0 /* LocalizableProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F376F3D2304416200C213C0 /* LocalizableProtocols.swift */; };
+		5F376F422304416200C213C0 /* HelperExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F376F3E2304416200C213C0 /* HelperExt.swift */; };
+		5F376F432304416200C213C0 /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F376F3F2304416200C213C0 /* LocalizationManager.swift */; };
+		5F376F442304416200C213C0 /* LocalizableUIButton+UILabel+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F376F402304416200C213C0 /* LocalizableUIButton+UILabel+UITextField.swift */; };
+		5F376F4A2304417800C213C0 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F376F462304417800C213C0 /* Connection.swift */; };
+		5F376F4B2304417800C213C0 /* MultiPartMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F376F472304417800C213C0 /* MultiPartMedia.swift */; };
+		5F376F4C2304417800C213C0 /* NetworkServices+MultiPartExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F376F482304417800C213C0 /* NetworkServices+MultiPartExt.swift */; };
+		5F376F4D2304417800C213C0 /*  NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F376F492304417800C213C0 /*  NetworkServices.swift */; };
+		5F376F552304418A00C213C0 /* OptionalExts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F376F542304418A00C213C0 /* OptionalExts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F376EFE2304363E00C213C0 /* Ulkhan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ulkhan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F376F012304363E00C213C0 /* Ulkhan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ulkhan.h; sourceTree = "<group>"; };
 		5F376F022304363E00C213C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F376F0A2304367500C213C0 /* OptionalExts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalExts.swift; sourceTree = "<group>"; };
-		5F376F0C2304367500C213C0 /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
-		5F376F0D2304367500C213C0 /* MultiPartMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiPartMedia.swift; sourceTree = "<group>"; };
-		5F376F0E2304367500C213C0 /* NetworkServices+MultiPartExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkServices+MultiPartExt.swift"; sourceTree = "<group>"; };
-		5F376F0F2304367500C213C0 /*  NetworkServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = " NetworkServices.swift"; sourceTree = "<group>"; };
-		5F376F112304367500C213C0 /* LocalizableProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableProtocols.swift; sourceTree = "<group>"; };
-		5F376F122304367500C213C0 /* HelperExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperExt.swift; sourceTree = "<group>"; };
-		5F376F132304367500C213C0 /* LocalizationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
-		5F376F142304367500C213C0 /* LocalizableUIButton+UILabel+UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LocalizableUIButton+UILabel+UITextField.swift"; sourceTree = "<group>"; };
+		5F376F3D2304416200C213C0 /* LocalizableProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableProtocols.swift; sourceTree = "<group>"; };
+		5F376F3E2304416200C213C0 /* HelperExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperExt.swift; sourceTree = "<group>"; };
+		5F376F3F2304416200C213C0 /* LocalizationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
+		5F376F402304416200C213C0 /* LocalizableUIButton+UILabel+UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LocalizableUIButton+UILabel+UITextField.swift"; sourceTree = "<group>"; };
+		5F376F462304417800C213C0 /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		5F376F472304417800C213C0 /* MultiPartMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiPartMedia.swift; sourceTree = "<group>"; };
+		5F376F482304417800C213C0 /* NetworkServices+MultiPartExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkServices+MultiPartExt.swift"; sourceTree = "<group>"; };
+		5F376F492304417800C213C0 /*  NetworkServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = " NetworkServices.swift"; sourceTree = "<group>"; };
+		5F376F4F2304417B00C213C0 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		5F376F502304417B00C213C0 /* MultiPartMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPartMedia.swift; sourceTree = "<group>"; };
+		5F376F512304417B00C213C0 /* NetworkServices+MultiPartExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkServices+MultiPartExt.swift"; sourceTree = "<group>"; };
+		5F376F522304417B00C213C0 /*  NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " NetworkServices.swift"; sourceTree = "<group>"; };
+		5F376F542304418A00C213C0 /* OptionalExts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalExts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,46 +68,56 @@
 		5F376F002304363E00C213C0 /* Ulkhan */ = {
 			isa = PBXGroup;
 			children = (
-				5F376F092304367500C213C0 /* Extension */,
-				5F376F102304367500C213C0 /* Localization */,
-				5F376F0B2304367500C213C0 /* NetworkServices */,
+				5F376F532304418A00C213C0 /* Extension */,
+				5F376F4E2304417B00C213C0 /* NetworkServices */,
+				5F376F3C2304416200C213C0 /* Localization */,
 				5F376F012304363E00C213C0 /* Ulkhan.h */,
 				5F376F022304363E00C213C0 /* Info.plist */,
 			);
 			path = Ulkhan;
 			sourceTree = "<group>";
 		};
-		5F376F092304367500C213C0 /* Extension */ = {
+		5F376F3C2304416200C213C0 /* Localization */ = {
 			isa = PBXGroup;
 			children = (
-				5F376F0A2304367500C213C0 /* OptionalExts.swift */,
+				5F376F452304417800C213C0 /* NetworkServices */,
+				5F376F3D2304416200C213C0 /* LocalizableProtocols.swift */,
+				5F376F3E2304416200C213C0 /* HelperExt.swift */,
+				5F376F3F2304416200C213C0 /* LocalizationManager.swift */,
+				5F376F402304416200C213C0 /* LocalizableUIButton+UILabel+UITextField.swift */,
 			);
-			name = Extension;
-			path = ../../../UlkhanFr/Ulkhan/Ulkhan/Extension;
+			path = Localization;
 			sourceTree = "<group>";
 		};
-		5F376F0B2304367500C213C0 /* NetworkServices */ = {
+		5F376F452304417800C213C0 /* NetworkServices */ = {
 			isa = PBXGroup;
 			children = (
-				5F376F0C2304367500C213C0 /* Connection.swift */,
-				5F376F0D2304367500C213C0 /* MultiPartMedia.swift */,
-				5F376F0E2304367500C213C0 /* NetworkServices+MultiPartExt.swift */,
-				5F376F0F2304367500C213C0 /*  NetworkServices.swift */,
+				5F376F462304417800C213C0 /* Connection.swift */,
+				5F376F472304417800C213C0 /* MultiPartMedia.swift */,
+				5F376F482304417800C213C0 /* NetworkServices+MultiPartExt.swift */,
+				5F376F492304417800C213C0 /*  NetworkServices.swift */,
 			);
 			name = NetworkServices;
-			path = ../../../UlkhanFr/Ulkhan/Ulkhan/NetworkServices;
+			path = ../../../../UlkhanFrameworkOLD/Ulkhan/Ulkhan/NetworkServices;
 			sourceTree = "<group>";
 		};
-		5F376F102304367500C213C0 /* Localization */ = {
+		5F376F4E2304417B00C213C0 /* NetworkServices */ = {
 			isa = PBXGroup;
 			children = (
-				5F376F112304367500C213C0 /* LocalizableProtocols.swift */,
-				5F376F122304367500C213C0 /* HelperExt.swift */,
-				5F376F132304367500C213C0 /* LocalizationManager.swift */,
-				5F376F142304367500C213C0 /* LocalizableUIButton+UILabel+UITextField.swift */,
+				5F376F4F2304417B00C213C0 /* Connection.swift */,
+				5F376F502304417B00C213C0 /* MultiPartMedia.swift */,
+				5F376F512304417B00C213C0 /* NetworkServices+MultiPartExt.swift */,
+				5F376F522304417B00C213C0 /*  NetworkServices.swift */,
 			);
-			name = Localization;
-			path = ../../../UlkhanFr/Ulkhan/Ulkhan/Localization;
+			path = NetworkServices;
+			sourceTree = "<group>";
+		};
+		5F376F532304418A00C213C0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5F376F542304418A00C213C0 /* OptionalExts.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,15 +198,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F376F1C2304367500C213C0 /* LocalizationManager.swift in Sources */,
-				5F376F152304367500C213C0 /* OptionalExts.swift in Sources */,
-				5F376F192304367500C213C0 /*  NetworkServices.swift in Sources */,
-				5F376F182304367500C213C0 /* NetworkServices+MultiPartExt.swift in Sources */,
-				5F376F162304367500C213C0 /* Connection.swift in Sources */,
-				5F376F1B2304367500C213C0 /* HelperExt.swift in Sources */,
-				5F376F1D2304367500C213C0 /* LocalizableUIButton+UILabel+UITextField.swift in Sources */,
-				5F376F1A2304367500C213C0 /* LocalizableProtocols.swift in Sources */,
-				5F376F172304367500C213C0 /* MultiPartMedia.swift in Sources */,
+				5F376F4C2304417800C213C0 /* NetworkServices+MultiPartExt.swift in Sources */,
+				5F376F412304416200C213C0 /* LocalizableProtocols.swift in Sources */,
+				5F376F432304416200C213C0 /* LocalizationManager.swift in Sources */,
+				5F376F4A2304417800C213C0 /* Connection.swift in Sources */,
+				5F376F422304416200C213C0 /* HelperExt.swift in Sources */,
+				5F376F442304416200C213C0 /* LocalizableUIButton+UILabel+UITextField.swift in Sources */,
+				5F376F552304418A00C213C0 /* OptionalExts.swift in Sources */,
+				5F376F4B2304417800C213C0 /* MultiPartMedia.swift in Sources */,
+				5F376F4D2304417800C213C0 /*  NetworkServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

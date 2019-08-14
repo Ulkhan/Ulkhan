@@ -1,0 +1,16 @@
+PODS:
+  - Ulkhan (1.0.1)
+
+DEPENDENCIES:
+  - Ulkhan (from `../Ulkhan/`)
+
+EXTERNAL SOURCES:
+  Ulkhan:
+    :path: "../Ulkhan/"
+
+SPEC CHECKSUMS:
+  Ulkhan: e2c6430db2aa6fe209fd99e7742a0f68d8123c14
+
+PODFILE CHECKSUM: 587f0077ea1345f68b40b20382069a021ea22768
+
+COCOAPODS: 1.7.2
