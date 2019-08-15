@@ -17,9 +17,12 @@
 		5F376F4C2304417800C213C0 /* NetworkServices+MultiPartExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F376F482304417800C213C0 /* NetworkServices+MultiPartExt.swift */; };
 		5F376F4D2304417800C213C0 /*  NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F376F492304417800C213C0 /*  NetworkServices.swift */; };
 		5F376F552304418A00C213C0 /* OptionalExts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F376F542304418A00C213C0 /* OptionalExts.swift */; };
+		97CA7C14B92576E09AE504AF /* Pods_Ulkhan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5721F476A3B2C4F449F19A3C /* Pods_Ulkhan.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		101A666C26F1120C8F6E4AB1 /* Pods-Ulkhan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ulkhan.release.xcconfig"; path = "Target Support Files/Pods-Ulkhan/Pods-Ulkhan.release.xcconfig"; sourceTree = "<group>"; };
+		5721F476A3B2C4F449F19A3C /* Pods_Ulkhan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ulkhan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F376EFE2304363E00C213C0 /* Ulkhan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ulkhan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F376F012304363E00C213C0 /* Ulkhan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ulkhan.h; sourceTree = "<group>"; };
 		5F376F022304363E00C213C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		5F376F512304417B00C213C0 /* NetworkServices+MultiPartExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkServices+MultiPartExt.swift"; sourceTree = "<group>"; };
 		5F376F522304417B00C213C0 /*  NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " NetworkServices.swift"; sourceTree = "<group>"; };
 		5F376F542304418A00C213C0 /* OptionalExts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalExts.swift; sourceTree = "<group>"; };
+		8DD2CE423460B4AAC778B8D8 /* Pods-Ulkhan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ulkhan.debug.xcconfig"; path = "Target Support Files/Pods-Ulkhan/Pods-Ulkhan.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +47,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97CA7C14B92576E09AE504AF /* Pods_Ulkhan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		343B9DF9565C0307C90ABFFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DD2CE423460B4AAC778B8D8 /* Pods-Ulkhan.debug.xcconfig */,
+				101A666C26F1120C8F6E4AB1 /* Pods-Ulkhan.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5F376EF42304363E00C213C0 = {
 			isa = PBXGroup;
 			children = (
 				5F376F002304363E00C213C0 /* Ulkhan */,
 				5F376EFF2304363E00C213C0 /* Products */,
+				343B9DF9565C0307C90ABFFD /* Pods */,
+				8AD23599F07EEB76ECD2CEF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +137,14 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		8AD23599F07EEB76ECD2CEF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5721F476A3B2C4F449F19A3C /* Pods_Ulkhan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -138,6 +163,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F376F062304363E00C213C0 /* Build configuration list for PBXNativeTarget "Ulkhan" */;
 			buildPhases = (
+				A4DD78E495FD0C4E784A93AD /* [CP] Check Pods Manifest.lock */,
 				5F376EF92304363E00C213C0 /* Headers */,
 				5F376EFA2304363E00C213C0 /* Sources */,
 				5F376EFB2304363E00C213C0 /* Frameworks */,
@@ -192,6 +218,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4DD78E495FD0C4E784A93AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ulkhan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5F376EFA2304363E00C213C0 /* Sources */ = {
@@ -337,6 +388,7 @@
 		};
 		5F376F072304363E00C213C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DD2CE423460B4AAC778B8D8 /* Pods-Ulkhan.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -363,6 +415,7 @@
 		};
 		5F376F082304363E00C213C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 101A666C26F1120C8F6E4AB1 /* Pods-Ulkhan.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;

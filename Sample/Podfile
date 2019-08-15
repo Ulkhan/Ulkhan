@@ -7,6 +7,6 @@ target 'Sample' do
 
   # Pods for Sample
 
-   pod 'Ulkhan', :path => '../Ulkhan/'
+   #pod 'Ulkhan', :path => '../Ulkhan/'
 
 end

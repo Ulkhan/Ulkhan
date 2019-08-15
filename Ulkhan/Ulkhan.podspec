@@ -11,8 +11,9 @@ s.license      = "MIT"
 s.author       = { "Ulkhan Amiraslanov" => "ulxanemi5@gmail.com" }
 s.platform     = :ios, "11.0"
 s.source       = { :git => "https://github.com/Ulkhan/Ulkhan.git", :tag => "1.0.1" }
-s.source_files = "Ulkhan/**/*.{h,m,swift}"
-s.exclude_files = "Ulkhan/*.plist"
+s.source_files = "Ulkhan/**/*.swift"
+s.exclude_files = "Ulkhan/**/*.plist"
 s.swift_version = '5.0'
+s.framework = "UIKit"
 
 end
