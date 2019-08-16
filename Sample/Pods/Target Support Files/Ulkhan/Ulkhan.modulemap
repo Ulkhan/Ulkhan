@@ -1,0 +1,6 @@
+framework module Ulkhan {
+  umbrella header "Ulkhan-umbrella.h"
+
+  export *
+  module * { export * }
+}
